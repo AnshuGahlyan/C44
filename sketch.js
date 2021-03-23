@@ -187,9 +187,7 @@ if(points < -80){
   textSize(200);
   textAlign(CENTER);
   text(points,675,375);
-  textSize(50);
-  fill("green");
-  text(mouseX+"x"  +mouseY+"y",mouseX-10,mouseY);
+ 
   if(intro.x === 670){
     textSize(40);
     fill("blue");
@@ -223,7 +221,8 @@ if(points < -80){
     text("Green Zone",580,500);
     fill("green");
     text("Tank",900,500);
-    
+    textSize(20);
+    text("Press M to continue",950,600);
   }else{
     a.x = 2000;
     b.x = 2000;
