@@ -222,7 +222,7 @@ if(points < -80){
     fill("green");
     text("Tank",900,500);
     textSize(20);
-    text("Press M to continue",1000,600);
+    text("Press M to continue",1090,600);
   }else{
     a.x = 2000;
     b.x = 2000;
